@@ -1,0 +1,103 @@
+.background-img {
+    background-image: url(./images/premium_photo.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 780px;
+    display: block;
+}
+.hero-text {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 270px;
+}
+.btn-about {
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: #34b7a7;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: all .3s ease;
+    margin-top: 20px;
+}
+.btn-about:hover {
+    background-color: rgba(204, 201, 201, 0.212);
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    /* space between icons */
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    color: rgb(53, 51, 51);
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    border: 1px solid rgba(44, 44, 44, 0.555);
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 100%;
+}
+.icon:hover {
+    color: #29d161;
+    /* change on hover (optional) */
+    border: 1px solid #29d161;
+}
+.design-text {
+    font-size: 13px;
+}
+.bootstrap {
+    color: #34b7a7;
+}
+footer {
+    padding: 20px;
+    background-color: #ece8e8;
+}
+NAVIGATION BAR
+.header-tags  a{
+ text-decoration: none;
+ color: #444444;
+ transition: all 0.3s ease-in;
+}
+.header-tags a:hover {
+color:  #34b7a7;
+}
+ .navbar-icons {
+ gap: 5px; /* space between icons */
+}
+.nav-icon {
+ color: rgba(0, 0, 0, 0.418); /* light gray color like the image */
+ font-size: 24px;
+ text-decoration: none;
+ transition: color 0.3s ease;
+ text-align: center;
+}
+.nav-icon:hover {
+ color: #29d161; /* change on hover (optional) */
+}
+.venom {
+ font-size: 32px;
+ font-weight: 300;
+ text-transform: uppercase;
+}
+.header {
+ background-color: #e9e8e6;
+ padding: 20px;
+ box-shadow: 0px 0px 20px #c5c5c17a ;
+}
+.header-tags  a{
+    text-decoration: none;
+    color: #444444;
+    transition: all 0.3s ease-in;
+  }
+  .header-tags a:hover {
+   color:  #34b7a7;
+  }

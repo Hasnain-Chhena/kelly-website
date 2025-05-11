@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <style>
+ .header  a{
+  text-decoration: none;
+  color: #444444;
+  transition: all 0.3s ease-in;
+}
+.header a:hover {
+ color:  #34b7a7;
+}
+  .navbar-icons {
+  gap: 5px; /* space between icons */
+}
+.nav-icon {
+  color: rgba(0, 0, 0, 0.418); /* light gray color like the image */
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+.nav-icon:hover {
+  color: #29d161; /* change on hover (optional) */
+}
+.venom {
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.header {
+  background-color: #e9e8e6;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #c5c5c17a ;
+}
+.bar {
+position: relative;
+bottom: 49px;
+}
+.heading-color {
+    color:  black;
+}
+.green-color{
+    color: #34b7a7; 
+}
+.img-cntnt{
+  opacity: 0;
+  bottom: 0px;
+  left: 28px;
+}
+.main-card:hover .img-cntnt{
+  opacity: 1;
+  transition: all 0.4s ease;
+  transform: translateY(-30px);
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    /* space between icons */
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    color: rgb(53, 51, 51);
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    border: 1px solid rgba(44, 44, 44, 0.555);
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 100%;
+}
+.icon:hover {
+    color: #29d161;
+    /* change on hover (optional) */
+    border: 1px solid #29d161;
+}
+.design-text {
+    font-size: 14px;
+}
+.bootstrap {
+    color: #34b7a7;
+}
+footer {
+    padding: 20px;
+    background-color: #ece8e8;
+}
+  </style>
+  <body>
+     <!-- NAV=BAR-->
+     <section id="NavBar">
+      <div class="header">
+          <div class="row">
+              <div class="col-md-2">
+                 <p class="venom pt-2"> Venom</p>
+              </div>
+              <div class="col-md-8 d-flex justify-content-center gap-4 pt-4">
+                  <a href="home.html">Home</a>
+                  <a href="about.html">About</a>
+                  <a href="services.html">Services</a>
+                  <a href="portfolio.html">Portfolio</a>
+                  <a href="#">Dropdown <i class="ri-arrow-down-s-line"></i></span></span></a>
+                  <a href="contact.html">Contact</a>
+              </div>
+              <div class="col-md-2">
+                  <div class="navbar-icons ps-5 pt-3">
+                      <a href="#" class="nav-icon fs-5"><i class="ri-close-fill"></i></a>
+                      <a href="#" class="nav-icon fs-5"><i class="ri-facebook-circle-fill"></i></a>
+                      <a href="#" class="nav-icon fs-5"><i class="ri-instagram-line"></i></a>
+                      <a href="#" class="nav-icon fs-5"><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+               </div>
+          </div>
+      </div>
+</section>
+   <!-- PORTFOLIO_INFO-->
+   <section id="portfolio">
+    <div class="container mt-5 mb-5">
+        <p class="text-center --heading-color mt-5 fs-2 fw-bolder">Portfolio</p>
+        <p class="text-center fs-1 green-color bar">___</p>
+        <p class="text-center bar">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="d-flex justify-content-center gap-5 pt-1 pb-3">
+            <p>All</p>
+            <p>App</p>
+            <p>Card</p>
+            <p>Product</p>
+        </div>
+        <div class="row" data-aos="fade-up"  data-aos-duration="3000">
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/app 2.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">App 2</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/app 2.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">App 2</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/branding 3.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">Branding 3</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" data-aos="fade-up"  data-aos-duration="3000">
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/product-1.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">Product 1</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/product-1.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">Product 1</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/branding 3.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">Product 1</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" data-aos="fade-up"  data-aos-duration="3000">
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/branding 3.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">App 1</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/app 2.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">App 1</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="main-card position-relative">
+              <img src="./images/app 2.jpg" alt="" class="img-fluid">
+              <div class="img-cntnt bg-white p-2 px-3 position-absolute">
+                <p class="app-txt">App 1</p>
+                <div class="d-flex gap-3 align-items-start">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="d-flex">
+                    <i class="ri-zoom-in-line portfolio-icon headings"></i>
+                    <i class="ri-links-line portfolio-icon  headings"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </section> 
+
+   <!-- FOOTER_INFO-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center  pt-3 design-text">© Copyright <b>Kelly</b> All Rights Reserved</p>
+          <div class="social-icons">
+            <a href="#" class="icon fs-5 opacity-50 pt-1"><i class="ri-xrp-line"></i></a>
+            <a href="#" class="icon fs-5 opacity-50 p-1"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#" class="icon fs-5 opacity-50 p-1"><i class="ri-instagram-line"></i></a>
+            <a href="#" class="icon fs-5 opacity-50 p-1"><i class="ri-linkedin-box-fill"></i></a>
+          </div>
+        </div>
+        <p class="text-center pt-2 pb-2 design-text">Designed by <span class="bootstrap">BootstrapMade</span></p>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

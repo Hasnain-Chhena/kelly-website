@@ -1,0 +1,133 @@
+.single-card {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 60px 0px #d3d3d3;
+    padding: 60px 30px;
+}
+.icon-heading {
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
+.icon-cntnt {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.icon {
+    color: orangered;
+    position: relative;
+    left: 48px; bottom: 5px;
+    font-weight: lighter;  
+}
+.blue-icon {
+    color: rgba(0, 174, 255, 0.493);
+    position: relative;
+    left: 48px; bottom: 5px;
+    font-weight: lighter;  
+}
+.red-card:hover path{
+    fill: rgba(255, 68, 0, 0.795);
+    transition: 0.3s ease all;
+}
+.red-card:hover .icon{
+    color: white;
+}
+.blue-card:hover path{
+    fill: rgba(0, 174, 255, 0.493);
+    transition: 0.3s ease all;
+}
+.blue-card:hover .blue-icon{
+    color: white;
+}
+.green-card:hover path {
+    fill: #34b7a7;
+    transition: all.3s ease;
+}
+.green-card:hover .green-icon{
+    color: white;
+}
+.hotspot {
+    height: 35%; width: 35%;
+    position: relative;
+    right: 35px;
+    bottom: 20px;
+}
+.pulse {
+    height: 35%; width: 35%;
+    position: relative;
+    right: 35px;
+    bottom: 20px;
+}
+.green-icon {
+    color: #34b7a7;
+    position: relative;
+    left: 48px; bottom: 5px;
+    font-weight: lighter; 
+}
+.deskboard {
+    height: 35%; width: 35%;
+    position: relative;
+    right: 30px;
+    bottom: 20px; 
+}
+footer .icon {
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    border: 1px solid ;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 100%;
+}
+.icon:hover {
+    color: #29d161;
+    border: 1px solid #29d161;
+}
+.design-text {
+    font-size: 14px;
+}
+.bootstrap {
+    color: #34b7a7;
+}
+footer {
+    padding: 20px;
+    background-color: #ece8e8;
+}
+.header-tags  a{
+ text-decoration: none;
+ color: #444444;
+ transition: all 0.3s ease-in;
+}
+.header-tags a:hover {
+color:  #34b7a7;
+}
+.nav-icon {
+ color: rgba(0, 0, 0, 0.418); /* light gray color like the image */
+ font-size: 24px;
+ text-decoration: none;
+ transition: color 0.3s ease;
+ text-align: center;
+}
+.nav-icon:hover {
+ color: #29d161; /* change on hover (optional) */
+}
+.venom {
+ font-size: 32px;
+ font-weight: 300;
+ text-transform: uppercase;
+}
+.header {
+ background-color: #e9e8e6;
+ padding: 20px;
+ box-shadow: 0px 0px 20px #c5c5c17a ;
+}
+.header-tags  a{
+    text-decoration: none;
+    color: #444444;
+    transition: all 0.3s ease-in;
+}
+.header-tags a:hover {
+   color:  #34b7a7;
+}

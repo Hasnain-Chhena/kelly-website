@@ -1,0 +1,97 @@
+.green-color {
+    color:  #34b7a7;
+    font-weight: bold;
+}
+span {
+    color: rgb(85, 82, 82);
+}
+.header-tags  a{
+  text-decoration: none;
+  color: #444444;
+  transition: all 0.3s ease-in;
+}
+.header-tags a:hover {
+ color:  #34b7a7;
+}
+.bar {
+    position: relative;
+    bottom: 49px;
+}
+.five-stars {
+    position: relative;
+    bottom: 20px;
+}
+:root{
+    --main-color: #34b7a7;
+    --heading-color: black;   
+}
+body {
+    font-family: ''Poppins'', sans-serif;
+}
+.main-text{
+    color: var(--main-color);
+}
+.main-bg{
+    background-color: var(--main-color);
+}
+.bold-text {
+color: rgba(0, 0, 0, 0.658);
+}
+.Counting {
+    font-weight: bolder;
+    font-size: 48px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px; /* space between icons */
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    color: #706e6e73; /* light gray color like the image */
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border: 1px solid rgba(104, 102, 102, 0.26);
+    height: 35px; width: 35px;
+    text-align: center;
+    border-radius: 100%;
+  }
+  .icon:hover {
+    color: #29d161; /* change on hover (optional) */
+    border: 1px solid #29d161;
+  }
+  .design-text {
+    font-size: 13px;
+  }
+  .bootstrap {
+   color: #34b7a7; 
+  }
+  footer {
+    padding: 20px;
+    background-color: #e9e8e6;
+  }
+  NAVIGATION BAR
+  .navbar-icons {
+  gap: 5px; /* space between icons */
+}
+.nav-icon {
+  color: rgba(0, 0, 0, 0.418); /* light gray color like the image */
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+.nav-icon:hover {
+  color: #29d161; /* change on hover (optional) */
+}
+.venom {
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.header {
+  background-color: #e9e8e6;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #c5c5c17a ;
+}
